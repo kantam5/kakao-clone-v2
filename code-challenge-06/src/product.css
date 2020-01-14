@@ -1,0 +1,64 @@
+.product {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.product .product__img {
+  margin: 25px;
+}
+
+.product .product__post {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+
+.product .post__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.product .post__status {
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.product .product__tag {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.tag__column-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tag__column-grade {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grade__i {
+  color: #febd51;
+}
+
+.grey {
+  color: #d8dde5;
+}
+
+.grade__comment {
+  font-size: 17px;
+  opacity: 0.6;
+}
