@@ -1,0 +1,12 @@
+.status-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.status-bar i {
+  font-size: 16px;
+}
