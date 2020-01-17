@@ -1,0 +1,16 @@
+.header .header__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.header__header .header__title {
+  font-weight: 600;
+}
+
+.header .header__header i {
+  cursor: pointer;
+}
